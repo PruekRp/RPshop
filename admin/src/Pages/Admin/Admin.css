@@ -1,0 +1,9 @@
+.admin{
+    display: flex;
+    background: ghostwhite;
+}
+@media(max-width:800px){
+    .admin{
+        flex-direction: column;
+    }
+}
