@@ -12,7 +12,7 @@ app.use(cors());
 
 // Database Conection With MongoDB
 mongoose.connect(
-  "mongodb+srv://pruekrp:53Mkhcn4tYgA8u2E@cluster0.a73el5y.mongodb.net/e-commerce"
+  "mongodb+srv://pruekrp:53Mkhcn4tYgA8u2E@cluster0.a73el5y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 );
 
 //API Creation
